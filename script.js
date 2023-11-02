@@ -1,14 +1,27 @@
-//Question 1
-var a =20;
-var b =30;
-console.log(a+b);
+//!Palindrome
+/*function palindrome(arr){
+var result =[];
+for(var i=0;i<arr.length;i++){
+    var data = arr[i].split("").reverse().join(""); //data =>d,a,t,a=>a,t,a,d=>atad
+    if(data===arr[i]){
+        result.push(arr[i]);
+    }
+}
+     return result;
+}
+console.log(palindrome(['mom','dad','data']));
+*/
 
-//question 2
-var c =50;
-var d =30;
-console.log(c+d);
+//!convert all the string title to caps
+/*function titleCase(arr){
+  var res =arr.toString();
+  var data = res.toLowerCase().split(" ");
+  for(var i=0; i<data.length; i++){
+     data[i]= data[i].charAt(0).toUpperCase() + data[i].slice(1);
+  }
+  return data.join(' ');
+}
+console.log(titleCase(["tHis IS jAvAsCrIpT"]));
+*/
 
-//Question 3
-var e = 50;
-var f = 30;
-console.log(e+f);
+
